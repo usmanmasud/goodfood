@@ -3,7 +3,7 @@ import CircleProgress from "../charts/CircleProgress";
 
 export default function RatingCard() {
   return (
-    <Card>
+    <Card className="border-r border-t">
       <h3 className="font-semibold mb-1">Your Rating</h3>
       <p className="text-sm text-gray-400 mb-6">
         Lorem ipsum dolor sit amet, consectetur

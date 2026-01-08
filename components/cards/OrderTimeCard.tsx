@@ -3,7 +3,7 @@ import OrderDonutChart from "../charts/DonutChart";
 
 export default function OrderTimeCard() {
   return (
-    <Card>
+    <Card className="">
       <div className="flex justify-between mb-4">
         <div>
           <p className="text-sm text-gray-500">Order Time</p>

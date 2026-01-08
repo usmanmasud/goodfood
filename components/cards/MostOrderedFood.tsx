@@ -9,7 +9,7 @@ const foods = [
 
 export default function MostOrderedFood() {
   return (
-    <Card>
+    <Card className="border-t border-r">
       <h3 className="font-semibold mb-4">Most Ordered Food</h3>
 
       <div className="space-y-4">

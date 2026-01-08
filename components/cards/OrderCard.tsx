@@ -3,7 +3,7 @@ import Card from "../ui/Card";
 
 export default function OrderCard() {
   return (
-    <Card>
+    <Card className="border-t">
       <div className="flex justify-between mb-4">
         <div>
           <p className="text-sm text-gray-500">Order</p>
